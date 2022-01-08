@@ -32,7 +32,7 @@ public class Quiz15651 {
                 sb.append(results[i] + " ");
             }
 
-            sb.append("\n");
+            sb.append('\n');
             return;
 
         }

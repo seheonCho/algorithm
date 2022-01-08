@@ -16,6 +16,7 @@ public class Quiz15649 {
 
         visit = new boolean[numberN];
         numbers = new int[numberM];
+
         dfs(numberN, numberM, 0);
 
     }
@@ -27,19 +28,26 @@ public class Quiz15649 {
     public static void dfs(int N, int M, int depth) { // N, M, 반복횟수(depth)
 
         if (depth == M) {
+
             for (int num : numbers) {
                 System.out.print(num + " ");
             }
+
             System.out.println();
+
             return;
+
         }
 
         for (int i = 0; i < N; i++) { //수의 범위가 1 ~ numberN
+
             if (!visit[i]) {
+
                 visit[i] = true;
                 numbers[depth] = i + 1;
                 dfs(N, M, depth + 1);
                 visit[i] = false; // 자식노드 방문종료시, 방문노드를 false로 초기화
+
             }
         }
 

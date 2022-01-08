@@ -22,11 +22,15 @@ public class Quiz15650 {
     public static void dfs(int min, int depth) {
 
         if (depth == numberM) {
+
             for (int val : result) {
                 System.out.print(val + " ");
             }
+
             System.out.println();
+
             return;
+
         }
 
         for (int i = min; i <= numberN; i++) {

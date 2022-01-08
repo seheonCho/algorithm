@@ -24,14 +24,17 @@ public class Quiz11650 {
         String[] inputPoints;
 
         for (int i = 0; i < pointCnt; i++) {
+
             inputPoints = br.readLine().split(" ");
             points[i][coordinatesX] = Integer.parseInt(inputPoints[coordinatesX]);
             points[i][coordinatesY] = Integer.parseInt(inputPoints[coordinatesY]);
+
         }
 
         br.close();
 
         Arrays.sort(points, new Comparator<int[]>() {
+
             @Override
             public int compare(int a[], int b[]) {
                 if (a[0] == b[0]) {

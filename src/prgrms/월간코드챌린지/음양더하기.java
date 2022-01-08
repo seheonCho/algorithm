@@ -10,7 +10,6 @@ public class 음양더하기 {
 
             if (!signs[i]) {
                 absolutes[i] = absolutes[i] * -1;
-
             }
 
         }

@@ -16,6 +16,7 @@ public class Quiz18870 {
 
         String[] input = bufferedReader.readLine().split(" ");
         int[] nums = new int[N];
+
         for (int i = 0; i < N; i++) {
             nums[i] = Integer.parseInt(input[i]);
         }
@@ -26,16 +27,20 @@ public class Quiz18870 {
         Arrays.sort(sortedNums);
 
         Map<Integer, Integer> map = new HashMap<>();
+
         int idx = 0;
+
         for (int num : sortedNums) {
             if (!map.containsKey(num))
                 map.put(num, idx++);
         }
 
         StringBuilder sb = new StringBuilder();
+
         for (int num : nums) {
             sb.append(map.get(num)).append(' ');
         }
+
         System.out.println(sb.toString());
 
 

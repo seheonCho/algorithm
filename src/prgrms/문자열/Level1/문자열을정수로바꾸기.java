@@ -16,13 +16,4 @@ public class 문자열을정수로바꾸기 {
         return parsingInt;
     }
 
-    /*
-
-    s.replace("+", "");
-    s.replace("-", "");
-    int parsingInt = Integer.parseInt(s);
-    return parsingInt;
-
-    */
-
 }
