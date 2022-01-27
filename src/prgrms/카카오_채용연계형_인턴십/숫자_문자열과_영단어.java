@@ -3,7 +3,6 @@ package prgrms.카카오_채용연계형_인턴십;
 public class 숫자_문자열과_영단어 {
 
     public int solution(String s) {
-        int answer = 0;
         System.out.println(s);
 
         String[] mappingEng
@@ -17,8 +16,7 @@ public class 숫자_문자열과_영단어 {
             s = s.replaceAll(mappingEng[i], mappingNum[i]);
         }
 
-        answer = Integer.parseInt(s);
-        return answer;
+        return Integer.parseInt(s);
     }
 
 }
