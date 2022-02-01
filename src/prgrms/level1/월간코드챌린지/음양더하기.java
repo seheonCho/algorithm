@@ -1,4 +1,4 @@
-package prgrms.월간코드챌린지;
+package prgrms.level1.월간코드챌린지;
 
 public class 음양더하기 {
 

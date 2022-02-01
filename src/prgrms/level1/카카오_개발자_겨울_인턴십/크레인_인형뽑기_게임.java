@@ -1,4 +1,4 @@
-package prgrms.카카오_개발자_겨울_인턴십;
+package prgrms.level1.카카오_개발자_겨울_인턴십;
 
 import java.util.Stack;
 

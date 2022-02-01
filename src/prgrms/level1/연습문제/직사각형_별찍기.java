@@ -1,4 +1,4 @@
-package prgrms.연습문제;
+package prgrms.level1.연습문제;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package prgrms.연습문제;
+package prgrms.level1.연습문제;
 
 public class 문자열_다루기_기본 {
 

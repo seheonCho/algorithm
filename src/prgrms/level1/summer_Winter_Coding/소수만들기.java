@@ -1,4 +1,4 @@
-package prgrms.summer_Winter_Coding;
+package prgrms.level1.summer_Winter_Coding;
 
 public class 소수만들기 {
 

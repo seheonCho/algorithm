@@ -1,4 +1,4 @@
-package prgrms.카카오_채용연계형_인턴십;
+package prgrms.level1.카카오_채용연계형_인턴십;
 
 public class 숫자_문자열과_영단어 {
 

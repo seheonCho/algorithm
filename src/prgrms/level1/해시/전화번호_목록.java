@@ -1,4 +1,4 @@
-package prgrms.해시;
+package prgrms.level1.해시;
 
 import java.util.HashSet;
 

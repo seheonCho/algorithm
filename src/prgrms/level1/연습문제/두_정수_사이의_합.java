@@ -1,4 +1,4 @@
-package prgrms.연습문제;
+package prgrms.level1.연습문제;
 
 public class 두_정수_사이의_합 {
 

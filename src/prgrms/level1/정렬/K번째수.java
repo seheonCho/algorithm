@@ -1,4 +1,4 @@
-package prgrms.정렬;
+package prgrms.level1.정렬;
 
 import java.util.Arrays;
 
