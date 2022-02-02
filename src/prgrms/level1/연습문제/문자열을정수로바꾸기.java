@@ -1,4 +1,4 @@
-package prgrms.level1.Level1;
+package prgrms.level1.연습문제;
 
 public class 문자열을정수로바꾸기 {
 
