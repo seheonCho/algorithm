@@ -1,6 +1,6 @@
 package prgrms.level1.연습문제;
 
-public class HasardNum {
+public class 하샤드_수 {
 
     public boolean solution(int x) {
         boolean answer = false;
