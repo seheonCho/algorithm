@@ -9,3 +9,6 @@ WHERE NAME IN ('Lucy', 'Ella', 'Pickle', 'Rogan', 'Sabrina', 'Mitty')
 
 동물 수 구하기
 SELECT COUNT(ANIMAL_TYPE) as count FROM ANIMAL_INS
+
+동명 동물 수 찾기
+SELECT NAME, COUNT(name) as COUNT FROM animal_ins GROUP BY name having COUNT(name) >= 2 ORDER BY name
