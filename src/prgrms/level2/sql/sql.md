@@ -15,3 +15,6 @@ SELECT NAME, COUNT(name) as COUNT FROM animal_ins GROUP BY name having COUNT(nam
 
 최솟값 구하기
 SELECT MIN(DATETIME) as 시간 FROM animal_ins
+
+이름에 el이 들어가는 동물 찾기
+SELECT ANIMAL_ID, NAME FROM animal_ins WHERE animal_type = 'Dog' AND (name like '%el%' OR name like '%EL%') ORDER BY NAME
