@@ -12,3 +12,6 @@ SELECT name, datetime FROM animal_ins ORDER BY animal_id DESC
 
 이름이 있는 동물의 아이디
 SELECT animal_id FROM animal_ins WHERE name IS NOT NULL
+
+아픈 동물 찾기
+SELECT animal_id, name FROM animal_ins WHERE intake_condition = 'Sick'
