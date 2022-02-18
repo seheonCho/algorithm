@@ -3,3 +3,6 @@ SELECT animal_id, animal_type, datetime, intake_condition, name, sex_upon_intake
 
 최댓값 구하기
 SELECT MAX(DATETIME) FROM animal_ins
+
+이름이 없는 동물의 아이디
+SELECT animal_id FROM animal_ins WHERE name IS NULL
