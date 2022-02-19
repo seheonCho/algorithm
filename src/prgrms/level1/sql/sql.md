@@ -21,3 +21,6 @@ SELECT animal_id, name FROM animal_ins WHERE intake_condition != 'Aged' ORDER BY
 
 동물의 아이디와 이름
 SELECT animal_id, name FROM animal_ins ORDER BY animal_id
+
+상위 n개 레코드
+SELECT name FROM animal_ins ORDER BY DATETIME LIMIT 1
