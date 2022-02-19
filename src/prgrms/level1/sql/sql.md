@@ -24,3 +24,6 @@ SELECT animal_id, name FROM animal_ins ORDER BY animal_id
 
 상위 n개 레코드
 SELECT name FROM animal_ins ORDER BY DATETIME LIMIT 1
+
+여러 기준으로 정렬하기
+SELECT animal_id, name, datetime FROM animal_ins ORDER BY name, datetime DESC
