@@ -1,4 +1,4 @@
-package boj;
+package boj.브루트포스;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.io.OutputStreamWriter;
 
-public class Quiz7568 {
+public class 덩치 {
 
     final static int SIZE_LENGTH = 2;
     static int bodyLength = 0;

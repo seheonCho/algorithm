@@ -1,8 +1,8 @@
-package boj;
+package boj.브루트포스;
 
 import java.util.Scanner;
 
-public class Quiz2501 {
+public class 약수_구하기 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

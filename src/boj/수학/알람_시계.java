@@ -1,8 +1,8 @@
-package boj;
+package boj.수학;
 
 import java.util.Scanner;
 
-public class Quiz2884 {
+public class 알람_시계 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

@@ -1,10 +1,10 @@
-package boj;
+package boj.정렬;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Quiz1427 {
+public class 소트인사이드 {
 
     public static void main(String[] args) throws IOException {
 

@@ -1,9 +1,9 @@
-package boj;
+package boj.수학;
 
 import java.io.*;
 import java.util.Scanner;
 
-public class Quiz1929 {
+public class 소수_구하기 {
 
     public static boolean[] sosus;
 

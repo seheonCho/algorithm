@@ -1,8 +1,8 @@
-package boj;
+package boj.수학;
 
 import java.util.Scanner;
 
-public class Quiz4344 {
+public class 평균은_넘겠지 {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

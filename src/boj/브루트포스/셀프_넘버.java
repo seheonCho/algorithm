@@ -1,6 +1,6 @@
-package boj;
+package boj.브루트포스;
 
-public class Quiz4673 {
+public class 셀프_넘버 {
 
     public static void main(String[] args) {
 

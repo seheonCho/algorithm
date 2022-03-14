@@ -1,8 +1,8 @@
-package boj;
+package boj.정렬;
 
 import java.io.*;
 
-public class Quiz2750 {
+public class 수_정렬하기 {
 
     static int inputNum;
 

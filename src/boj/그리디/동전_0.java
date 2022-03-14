@@ -1,8 +1,8 @@
-package boj;
+package boj.그리디;
 
 import java.util.Scanner;
 
-public class Quiz11047 {
+public class 동전_0 {
 
     public static void main(String[] args) {
 

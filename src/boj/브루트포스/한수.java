@@ -1,10 +1,10 @@
-package boj;
+package boj.브루트포스;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Quiz1065 {
+public class 한수 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

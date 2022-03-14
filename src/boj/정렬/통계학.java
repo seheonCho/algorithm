@@ -1,9 +1,9 @@
-package boj;
+package boj.정렬;
 
 import java.io.*;
 import java.util.*;
 
-public class Quiz2108 {
+public class 통계학 {
 
     public static void main(String[] args) throws IOException {
 

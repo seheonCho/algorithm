@@ -1,10 +1,10 @@
-package boj;
+package boj.그리디;
 
 import java.io.*;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-public class Quiz1931 {
+public class 회의실_배정 {
 
     public static void main(String[] args) throws IOException {
 

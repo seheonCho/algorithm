@@ -1,10 +1,10 @@
-package boj;
+package boj.정렬;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class Quiz10989 {
+public class 수_정렬하기_3 {
     public static void main(String[] args) throws IOException {
 
         int maxNum = 10001;

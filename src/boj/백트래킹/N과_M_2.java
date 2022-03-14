@@ -1,8 +1,8 @@
-package boj;
+package boj.백트래킹;
 
 import java.util.Scanner;
 
-public class Quiz15650 {
+public class N과_M_2 {
 
     static int numberN, numberM;
     static int[] result;

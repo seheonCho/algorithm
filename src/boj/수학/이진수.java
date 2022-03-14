@@ -1,8 +1,8 @@
-package boj;
+package boj.수학;
 
 import java.util.Scanner;
 
-public class Quiz3460 {
+public class 이진수 {
 
     public static void main(String[] args) {
 

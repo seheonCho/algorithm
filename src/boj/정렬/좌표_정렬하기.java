@@ -1,4 +1,4 @@
-package boj;
+package boj.정렬;
 
 
 import java.io.BufferedReader;
@@ -9,7 +9,7 @@ import java.io.OutputStreamWriter;
 import java.util.Arrays;
 import java.util.Comparator;
 
-public class Quiz11650 {
+public class 좌표_정렬하기 {
 
     public static void main(String[] args) throws IOException {
 

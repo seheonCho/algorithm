@@ -1,4 +1,4 @@
-package boj;
+package boj.정렬;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -7,7 +7,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Quiz18870 {
+public class 좌표_압축 {
 
     public static void main(String[] args) throws IOException {
 

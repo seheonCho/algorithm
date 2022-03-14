@@ -1,9 +1,9 @@
-package boj;
+package boj.자료구조;
 
 import java.io.*;
 import java.util.Arrays;
 
-public class Quiz17298 {
+public class 오큰수 {
 
     public static void main(String[] args) throws IOException {
 

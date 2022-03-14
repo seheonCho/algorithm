@@ -1,8 +1,8 @@
-package boj;
+package boj.정렬;
 
 import java.io.*;
 
-public class Quiz2751 {
+public class 수_정렬하기_2 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

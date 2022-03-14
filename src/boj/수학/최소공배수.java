@@ -1,8 +1,8 @@
-package boj;
+package boj.수학;
 
 import java.util.Scanner;
 
-public class Quiz1934 {
+public class 최소공배수 {
 
     public static void main(String[] args) {
 

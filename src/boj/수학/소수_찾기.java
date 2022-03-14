@@ -1,11 +1,11 @@
-package boj;
+package boj.수학;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Quiz1978 {
+public class 소수_찾기 {
 
     public static void main(String[] args) throws IOException {
 
