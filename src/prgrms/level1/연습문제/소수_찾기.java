@@ -6,7 +6,7 @@ public class 소수_찾기 {
         int answer = 0;
 
         for (int i = 2; i <= n; i++) {
-            if(!isPrime(i)) answer++;
+            if(isPrime(i)) answer++;
         }
 
         return answer;
@@ -16,10 +16,10 @@ public class 소수_찾기 {
         int sqrtNum = (int)Math.sqrt(num);
         for (int i = 2; i <= sqrtNum; i++) {
             if (num % i == 0) {
-                return true;
+                return false;
             }
         }
-        return false;
+        return true;
     }
 
 }
