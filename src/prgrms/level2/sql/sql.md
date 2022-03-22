@@ -23,3 +23,6 @@ SELECT ANIMAL_ID, NAME FROM animal_ins WHERE animal_type = 'Dog' AND (name like 
 SELECT count(A.name) count FROM (
 SELECT name FROM animal_ins WHERE name is not NULL GROUP BY name
 ) A
+
+DATETIME에서 DATE로 형 변환
+SELECT animal_id, name, date_format(datetime, '%Y-%m-%d') FROM animal_ins ORDER BY animal_id
