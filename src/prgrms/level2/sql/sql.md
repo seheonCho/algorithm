@@ -18,3 +18,8 @@ SELECT MIN(DATETIME) as 시간 FROM animal_ins
 
 이름에 el이 들어가는 동물 찾기
 SELECT ANIMAL_ID, NAME FROM animal_ins WHERE animal_type = 'Dog' AND (name like '%el%' OR name like '%EL%') ORDER BY NAME
+
+중복 제거하기
+SELECT count(A.name) count FROM (
+SELECT name FROM animal_ins WHERE name is not NULL GROUP BY name
+) A
