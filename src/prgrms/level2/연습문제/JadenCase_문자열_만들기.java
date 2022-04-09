@@ -5,7 +5,7 @@ public class JadenCase_문자열_만들기 {
     public String solution(String s) {
         String answer = "";
 
-        String[] strings = s.toLowerCase().split(" ");
+        String[] strings = s.toLowerCase().split("");
         boolean spaceFlag = true;
 
         for (int i = 0; i < strings.length; i++) {
