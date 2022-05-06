@@ -26,3 +26,8 @@ SELECT name FROM animal_ins WHERE name is not NULL GROUP BY name
 
 DATETIME에서 DATE로 형 변환
 SELECT animal_id, name, date_format(datetime, '%Y-%m-%d') FROM animal_ins ORDER BY animal_id
+
+NULL 처리하기
+SELECT animal_type, coalesce(name, 'No name') as name, sex_upon_intake
+FROM animal_ins
+ORDER BY animal_id
