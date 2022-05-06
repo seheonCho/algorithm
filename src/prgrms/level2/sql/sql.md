@@ -31,3 +31,10 @@ NULL 처리하기
 SELECT animal_type, coalesce(name, 'No name') as name, sex_upon_intake
 FROM animal_ins
 ORDER BY animal_id
+
+SELECT HOUR(datetime) AS HOUR, COUNT(datetime) AS COUNT
+FROM animal_outs
+WHERE HOUR(datetime) >= 9
+AND HOUR(datetime) <= 19
+GROUP BY HOUR(datetime)
+ORDER BY HOUR
