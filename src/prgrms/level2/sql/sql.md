@@ -38,3 +38,9 @@ WHERE HOUR(datetime) >= 9
 AND HOUR(datetime) <= 19
 GROUP BY HOUR(datetime)
 ORDER BY HOUR
+
+중성화 여부 파악하기
+SELECT animal_id, name,
+CASE WHEN (SEX_UPON_INTAKE LIKE '%NEUTERED%' OR SEX_UPON_INTAKE LIKE '%SPAYED%') THEN 'O' ELSE 'X' END AS '중성화'
+FROM animal_ins
+ORDER BY animal_id
