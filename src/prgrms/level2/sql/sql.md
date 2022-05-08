@@ -32,6 +32,7 @@ SELECT animal_type, coalesce(name, 'No name') as name, sex_upon_intake
 FROM animal_ins
 ORDER BY animal_id
 
+입양 시각 구하기(1)
 SELECT HOUR(datetime) AS HOUR, COUNT(datetime) AS COUNT
 FROM animal_outs
 WHERE HOUR(datetime) >= 9
