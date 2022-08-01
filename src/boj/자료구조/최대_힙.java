@@ -11,7 +11,7 @@ public class 최대_힙 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        Queue queue = new PriorityQueue(Collections.reverseOrder());
+        Queue<Integer> queue = new PriorityQueue(Collections.reverseOrder());
         StringBuilder sb = new StringBuilder();
 
         int N = Integer.parseInt(br.readLine());

@@ -10,7 +10,7 @@ public class 최소_힙 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        Queue queue = new PriorityQueue();
+        Queue<Integer> queue = new PriorityQueue();
         StringBuilder sb = new StringBuilder();
         int N = Integer.parseInt(br.readLine());
 
