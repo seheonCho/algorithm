@@ -18,3 +18,9 @@ from animal_ins a inner join animal_outs b
 on a.animal_id = b.animal_id
 and a.datetime > b.datetime
 order by a.datetime
+
+없어진 기록 찾기
+select animal_id, name
+from animal_outs
+where animal_id not in (select animal_id from animal_ins)
+order by animal_id
