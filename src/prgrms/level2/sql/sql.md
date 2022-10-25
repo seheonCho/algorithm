@@ -48,9 +48,3 @@ ORDER BY animal_id
 
 나이 정보가 없는 회원 수 구하기
 select count(*) users from user_info where age is null
-
-흉부외과 또는 일반외과 의사 목록 출력하기
-select dr_name, dr_id, mcdp_cd, date_format(hire_ymd, '%Y-%m-%d') 
-from doctor
-where mcdp_cd = 'CS' OR mcdp_cd = 'GS'
-order by hire_ymd desc, dr_name

@@ -27,3 +27,9 @@ SELECT name FROM animal_ins ORDER BY DATETIME LIMIT 1
 
 여러 기준으로 정렬하기
 SELECT animal_id, name, datetime FROM animal_ins ORDER BY name, datetime DESC
+
+흉부외과 또는 일반외과 의사 목록 출력하기
+select dr_name, dr_id, mcdp_cd, date_format(hire_ymd, '%Y-%m-%d')
+from doctor
+where mcdp_cd = 'CS' OR mcdp_cd = 'GS'
+order by hire_ymd desc, dr_name
