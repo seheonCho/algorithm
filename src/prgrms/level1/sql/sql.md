@@ -33,3 +33,9 @@ select dr_name, dr_id, mcdp_cd, date_format(hire_ymd, '%Y-%m-%d')
 from doctor
 where mcdp_cd = 'CS' OR mcdp_cd = 'GS'
 order by hire_ymd desc, dr_name
+
+경기도에 위치한 식품창고 목록 출력하기
+select warehouse_id, warehouse_name, address, coalesce(freezer_yn, 'N') freezer_yn
+from food_warehouse
+where address like '경기도%'
+order by warehouse_id
