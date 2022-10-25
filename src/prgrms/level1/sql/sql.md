@@ -45,3 +45,7 @@ select factory_id, factory_name, address
 from food_factory
 where address like '강원도%'
 order by factory_id
+
+가장 비싼 상품 구하기
+select max(price) MAX_PRICE
+from product
