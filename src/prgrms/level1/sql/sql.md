@@ -49,3 +49,9 @@ order by factory_id
 가장 비싼 상품 구하기
 select max(price) MAX_PRICE
 from product
+
+조건에 맞는 회원수 구하기
+select count(*) users
+from user_info
+where date_format(joined, '%Y') = 2021
+and age between 20 and 29
