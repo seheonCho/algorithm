@@ -39,3 +39,9 @@ select warehouse_id, warehouse_name, address, coalesce(freezer_yn, 'N') freezer_
 from food_warehouse
 where address like '경기도%'
 order by warehouse_id
+
+강원도에 위치한 생산공장 목록 출력하기
+select factory_id, factory_name, address
+from food_factory
+where address like '강원도%'
+order by factory_id
