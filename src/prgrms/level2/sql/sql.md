@@ -45,3 +45,6 @@ SELECT animal_id, name,
 CASE WHEN (SEX_UPON_INTAKE LIKE '%NEUTERED%' OR SEX_UPON_INTAKE LIKE '%SPAYED%') THEN 'O' ELSE 'X' END AS '중성화'
 FROM animal_ins
 ORDER BY animal_id
+
+나이 정보가 없는 회원 수 구하기
+select count(*) users from user_info where age is null
