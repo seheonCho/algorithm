@@ -55,3 +55,9 @@ from online_sale
 group by user_id, product_id
 having count(*) >= 2
 order by user_id, product_id desc
+
+가격대 별 상품 개수 구하기
+select truncate(price, -4) as PRICE_GROUP, count(product_id) as PRODUCTS
+from product
+group by PRICE_GROUP
+order by PRICE_GROUP
