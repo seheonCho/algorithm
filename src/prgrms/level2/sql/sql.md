@@ -48,3 +48,10 @@ ORDER BY animal_id
 
 나이 정보가 없는 회원 수 구하기
 select count(*) users from user_info where age is null
+
+재구매가 일어난 상품과 회원 리스트 구하기
+select user_id, product_id
+from online_sale
+group by user_id, product_id
+having count(*) >= 2
+order by user_id, product_id desc
