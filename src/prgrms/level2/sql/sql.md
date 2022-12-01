@@ -61,3 +61,10 @@ select truncate(price, -4) as PRICE_GROUP, count(product_id) as PRODUCTS
 from product
 group by PRICE_GROUP
 order by PRICE_GROUP
+
+성분으로 구분한 아이스크림 총 주문량
+select b.ingredient_type, sum(a.total_order) as total_order
+from first_half a left outer join icecream_info b
+on a.flavor = b.flavor
+group by b.ingredient_type
+order by total_order
