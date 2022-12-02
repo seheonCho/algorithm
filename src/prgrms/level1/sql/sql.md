@@ -55,3 +55,11 @@ select count(*) users
 from user_info
 where date_format(joined, '%Y') = 2021
 and age between 20 and 29
+
+과일로 만든 아이스크림 고르기
+select a.flavor
+from icecream_info a left outer join first_half b
+on a.flavor = b.flavor
+where a.ingredient_type = 'fruit_based'
+and b.total_order > 3000
+order by b.total_order desc
