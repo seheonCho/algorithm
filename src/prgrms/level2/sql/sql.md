@@ -76,3 +76,11 @@ where date_format(date_of_birth, '%m') = '03'
 and gender = 'W'
 and tlno != ''
 order by member_id
+
+12세 이하인 여자 환자 목록 출력하기
+select pt_name, pt_no, gend_cd, age,
+case when tlno is null then 'NONE' else tlno end tlno
+from patient
+where age <= 12
+and gend_cd = 'W'
+order by age desc, pt_name
