@@ -7,3 +7,13 @@ group by rest_id) b
 on a.rest_id = b.rest_id
 where a.address like '서울%'
 order by b.score desc, a.favorites desc
+
+오프라인/온라인 판매 데이터 통합하기
+select date_format(sales_date, '%Y-%m-%d') as sales_date, product_id, user_id, sales_amount
+from (select sales_date, product_id, user_id, sales_amount
+from online_sale
+union
+select sales_date, product_id, null as user_id, sales_amount
+from offline_sale) a
+where date_format(sales_date, '%m') = '03'
+order by sales_date, product_id, user_id
