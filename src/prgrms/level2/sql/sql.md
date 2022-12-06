@@ -84,3 +84,9 @@ from patient
 where age <= 12
 and gend_cd = 'W'
 order by age desc, pt_name
+
+카테고리 별 상품 개수 구하기
+select substring(product_code, 1, 2) as category, count(product_id) as products
+from product
+group by category
+order by product_code
