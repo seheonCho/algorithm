@@ -96,3 +96,10 @@ select product_id, product_name, product_cd, category, price
 from food_product
 order by price desc
 limit 1
+
+조건에 맞는 도서와 저자 리스트 출력하기
+select b.book_id, a.author_name, date_format(b.published_date, '%Y-%m-%d') published_date
+from book b inner join author a
+on b.author_id = a.author_id
+where b.category = '경제'
+order by published_date
