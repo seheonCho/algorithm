@@ -17,3 +17,11 @@ select sales_date, product_id, null as user_id, sales_amount
 from offline_sale) a
 where date_format(sales_date, '%m') = '03'
 order by sales_date, product_id, user_id
+
+보호소에서 중성화한 동물
+select i.animal_id, i.animal_type, i.name
+from animal_ins i left outer join animal_outs o
+on i.animal_id = o.animal_id
+where (i.sex_upon_intake = 'Intact Female' or i.sex_upon_intake = 'Intact male')
+and (o.sex_upon_outcome = 'Spayed Female' or o.sex_upon_outcome = 'Neutered Male')
+order by i.animal_id
