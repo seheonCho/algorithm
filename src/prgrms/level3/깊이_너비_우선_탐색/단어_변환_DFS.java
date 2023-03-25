@@ -1,6 +1,6 @@
 package prgrms.level3.깊이_너비_우선_탐색;
 
-public class 단어_변환 {
+public class 단어_변환_DFS {
 
     private static final int IMPOSSIBLE_TRANSFER_VALUE = 0;
     private static final int POSSIBLE_TRANSFER_COUNT = 1;
